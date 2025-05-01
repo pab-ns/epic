@@ -30,16 +30,6 @@
       price: "–",
     },
     {
-      name: "Lean Change Foundations",
-      link: "https://training.epicagile.com.au/w/au/courses/77-lean-change-foundations",
-      enrolLink: "https://training.epicagile.com.au/w/au/courses/77-lean-change-foundations",
-      img: "https://pab-ns.github.io/epic/images/pathway/FOUNDATIONS_Lean-Change.png",
-      desc: "Create an iterative change approach, fit for your organisation that integrates lean and agile practices with design thinking.",
-      modal: "Virtual",
-      date: "–",
-      price: "–",
-    },
-    {
       name: "Business Agility Foundations",
       link: "https://training.epicagile.com.au/w/au/courses/86-business-agility-foundations-icpbaf",
       enrolLink: "https://training.epicagile.com.au/w/au/courses/86-business-agility-foundations-icpbaf",
