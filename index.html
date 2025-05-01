@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/menu.js" defer></script>
+    <script src="js/carousel.js" defer></script>
+
+    <title>epic 1</title>
+
+</head>
+<body class="">
+    <!-- NAV container -->
+    <nav class="relative container mx-auto p-6">
+        <!-- flex container for all items -->
+         <div class="flex itmes-center justify-between">
+            <!-- flex container for logo/menu-->
+             <div class="flex items-center space-x-20">
+                <!-- logo -->
+                 <img src="images/logo-colour.svg" alt="" class="h-6">
+                 <!-- left menu -->
+                  <div class="hidden lg:flex space-x-8 text-base">
+
+                    <!-- dropdown WHAT -->
+                    <div class="relative inline-block group" id="dropdown-wrapper"> 
+                        <!-- menu item  -->
+                         <div class="inline-flex items-center space-x-1 text-epicBlue hover:text-epiclightBlue group-focus:bg-epiclightBlue" id="dropdown-toggle">
+                          <span>What We Do</span>
+                          <!-- <img src="images/icon-arrow.svg" alt="" width="10" class="-rotate-90" id="arrow-icon"> -->
+                          <svg width="12px" height="8px" class="-rotate-90" id="arrow-icon">
+                            <path
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              d="M1 1 L6 6 L11 1"
+                            />
+                          </svg>
+
+                         </div>
+                      <!-- dropdown menu -->
+                      <ul id="dropdown-menu" class="absolute left-0 mt-2 w-60 p-5 bg-white rounded-sm shadow-lg hidden">
+                        <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Academy</a></li>
+                        <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Masterclasses</a></li>
+                        <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Accelerators</a></li>
+                        <li><a href="#" class="block px-4 py-2 text-epicBlue hover:text-epiclightBlue">EPiC Ways of Working</a></li>
+                      </ul>
+                    </div>
+                    <a href="#" class="text-epicBlue hover:text-epiclightBlue">What We've Done</a>
+                    <a href="#" class="text-epicBlue hover:text-epiclightBlue">Why We Do It</a>
+                    <a href="#" class="text-epicBlue hover:text-epiclightBlue">Who We Are</a>
+                    <a href="#" class="text-epicBlue hover:text-epiclightBlue">Certified Training</a>
+                  </div>
+             </div>
+             <!-- right button -->
+              <div class="hidden lg:flex items-center space-x-6">
+                <!-- <a href="" class="px-7 py-3  text-xs font-bold tracking-wide uppercase text-white bg-epicGreen rounded-full hover:opacity-70">Let's Talk</a> -->
+                <button class="bg-epicGreen hover:bg-epicOrange transition-all duration-200 text-white py-3 px-7 rounded-full text-xs font-bold uppercase items-center">
+                    <span>Let's Talk</span>
+                  </button>
+              </div>
+
+              <!-- HAMBURGER ICON BUTTON -->
+               <button class="block hamburger lg:hidden focus:outlines-none" id="menu-btn" type="button">
+                   <span class="hamburger-top"></span>
+                   <span class="hamburger-middle"></span>
+                   <span class="hamburger-bottom"></span>
+               </button>
+
+         </div>
+         <!-- MOBILE MENU -->
+          <div id="menu" class="absolute hidden p-6 rounded-md bg-epicBlue left-6 right-6 top-20 z-100">
+            <div class="flex flex-col items-center justify-center w-full space-y-6 text-white text-base font-light">
+               <a href="#" class="w-full text-center text-sm opacity-50">What We Do</a>
+               <a href="#" class="w-full text-center">EPiC Academy</a>
+               <a href="#" class="w-full text-center">EPiC Masterclasses</a>
+               <a href="#" class="w-full text-center">EPiC Accelerators</a>
+               <a href="#" class="w-full text-center">EPiC Ways of Working</a>
+               <a href="#" class="w-full pt-6 border-t border-gray-400 text-center">What We've Done</a>
+               <a href="#" class="w-full text-center">Why We Do It</a>
+               <a href="#" class="w-full text-center">Who We Are</a>
+               <a href="#" class="w-full text-center">Certified Training</a>
+               <a href="#" class="w-full py-3 text-center rounded-full tracking-wide uppercase bg-epicGreen">Let's Talk</a>
+            </div>
+          </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="container max-w-6xl mx-auto input-mobile-padding my-20">
+         <div class="text-center space-y-6">
+            <img src="images/Comp 8_v2.gif" alt="" class="mix-blend-darken mx-auto" width="90%">
+            <h1 class="text-7xl text-epicGreen">Innovate Yourself...</h1>
+            <p class="text-2xl max-w-2xl mx-auto text-epicBlue"><b>Increase revenue and enable efficiencies.</b> We guide you to your next goal, no matter where you are on the path. </p>
+         </div>
+    </section>
+
+    <!-- hero 2 
+    <section class="container mx-auto max-w-6xl input-mobile-padding my-40">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+                <div class="flex flex-col space-y-7 text-center md:text-left">
+                    <h1 class="text-7xl text-epicGreen">Innovate Yourself...</h1>
+                    <p class="text-xl text-epicBlue">
+                        <b>Increase revenue and enable efficiencies.</b> We guide you to your next goal, no matter where you are on the path.
+                </p>
+                </div>
+<img src="images/Comp 8_v2.gif" class="mix-blend-darken" width="100%" alt="">
+    
+        </div>
+    </section>  -->   
+
+
+    <!-- box -->
+    <section class="container max-w-4xl mx-auto my-20 input-mobile-padding">
+        <img src="images/Group 2.png" alt="" class="mix-blend-darken">
+        <div class="bg-epiclightBlue rounded-b-2xl">
+            <h3 class="tracking-wide text-center text-white px-14 md:px-40 py-6 md:py-12 text-lg md:text-2xl">We build organisations that adapt, deliver, and thrive. We blend deep expertise with a hands-on, human approach. </h3>
+        </div>
+    </section>
+
+    <!-- tiles -->
+    <section class="container mx-auto max-w-6xl input-mobile-padding my-20">
+        <h2 class="input-section-title-normal text-center text-epiclightBlue mb-10">Our way to keep you relevant
+        </h2>  
+        <!-- grid -->
+        <div class="grid gap-3 md:grid-cols-3 pt-10">
+                    
+        <!-- tile-1 -->
+        <div class="flex flex-col mx-auto text-center space-y-3">
+            <h5 class="text-xl text-center font-rocksalt text-epicOrange">Small Steps</h5>            
+            <img src="images/page5.png" alt="" width="280" class="p-4">
+            <div class="space-y-2">
+                <h5 class="input-card-title text-epicBlue">Masterclasses</h5>
+                <p class="">Build knowledge and confidence</p>
+            </div>
+            <br>
+               <div>
+                <button class="bg-epicOrange hover:bg-orange-700 transition-all duration-200 text-white py-3 px-7 rounded-full uppercase items-center text-xs font-bold">
+                   <a href="#"><span>Educate me</span></a>
+                </button>
+               </div>
+        </div>
+        <!-- tile-2 -->
+        <div class="flex flex-col mx-auto text-center space-y-3">
+            <h5 class="text-xl text-center font-rocksalt text-epicGreen">Big Jump</h5>            
+            <img src="images/page6.png" alt="" width="280" class="p-4">
+            <div class="space-y-2">
+                <h5 class="input-card-title text-epicBlue">Accelerators</h5>
+                <p class="">Move forward with momentum</p>
+            </div>
+            <br>
+               <div>
+                <button class="bg-epicGreen hover:bg-green-700 transition-all duration-200 text-white py-3 px-7 rounded-full uppercase items-center text-xs font-bold">
+                   <a href="#"><span>Propel me</span></a>
+                </button>
+               </div>
+        </div>
+        <!-- tile-3 -->
+        <div class="flex flex-col mx-auto text-center space-y-3">
+            <h5 class="text-xl text-center font-rocksalt text-epiclightBlue">G iant Leap</h5>            
+            <img src="images/page7.png" alt="" width="280" class="p-4">
+            <div class="space-y-2">
+                <h5 class="input-card-title text-epicBlue">Ways of Working</h5>
+                <p class="">Solve meaningful problems</p>
+            </div>
+            <br>
+               <div>
+                <button class="bg-epiclightBlue hover:bg-epicBlue transition-all duration-200 text-white py-3 px-7 rounded-full uppercase items-center text-xs font-bold">
+                   <a href="#"><span>Let's Innovate</span></a>
+                </button>
+               </div>
+        </div>                             
+                    
+    </div>    
+    </section>     
+
+    <!-- logo partners -->
+    <section class="bg-epicShell input-full-w-section">
+     <div class="container max-w-6xl mx-auto input-mobile-padding">
+        <h3 class="input-secondary-section-title text-epicBlue">We’ve helped these legends get even better… </h3>
+        <div class="mix-blend-darken bg-logo-partners-mobile md:bg-logo-partners-desktop bg-cover md:bg-contain bg-center bg-no-repeat h-[70vh] md:h-96 my-0 md:my-5"></div>
+
+        <h3 class="input-secondary-section-title text-epicBlue text-right">we’d love to help you too</h3>
+     </div>
+    </section>
+
+    <!-- problem - solution -->
+    <section class="container mx-auto max-w-4xl space-y-16 input-mobile-padding my-20">
+    <!-- top -->
+    <div class="flex flex-col md:flex-row items-center">
+      <!-- content -->
+      <div class="md:w-1/2">
+          <h3 class="text-epicBlue input-secondary-section-title">Stop struggling with...</h3>
+          <br>
+          <p class="text-gray-700 input-lead-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse amet soluta. Illo ratione placeat corporis autem necessitatibus omnis illum? </p>
+      </div>
+        <!-- img -->
+        <img src="images/Group 7.png" alt="" class="mx-auto w-[90%] md:w-[50%] pt-10 md:pt-0 pl-0 md:pl-8">
+  </div>
+  <div class="flex flex-col md:flex-row-reverse space-x-5 space-y-4 md:space-y-0 items-center">
+      <!-- content -->
+      <div class="md:w-1/2">
+          <h3 class="text-epicBlue input-secondary-section-title">Choose your journey</h3>
+          <br>
+          <p class="text-gray-700 input-lead-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit esse amet soluta. Illo ratione placeat corporis autem necessitatibus omnis illum? </p>
+      </div>
+        <!-- img -->
+        <img src="images/Group 31.png" alt="" class="mx-auto text-center mix-blend-darken md:pr-28 w-[60%] md:w-[40%]">
+  </div> 
+    </section>
+
+     <!-- video -->
+     <section>
+        <div class="relative w-full">
+            <video class="relative w-full z-10" autoplay loop muted playsinline> <source src="video/Web-Loop.mp4"> </video>
+            <div class="absolute w-full h-full top-0 left-0 bg-epicGreen opacity-90 z-20"></div>
+            <div class="absolute w-full h-full flex flex-col align-center justify-center items-center top-0 z-30 px-5 md:px-0">
+                <h3 class="max-w-2xl text-white text-base md:text-3xl text-center">Where others consult, we co-create.<br>Where others bring frameworks, we bring clarity. <br> We blend deep expertise with a human approach, empowering your people to lead lasting change, not just tick boxes.</h3>
+
+                <div class="mt-10 flex space-x-5">
+                    <button class="bg-white hover:bg-epicCustard transition-all duration-200 text-epicGreen py-3 px-7 rounded-full text-sm font-bold uppercase items-center">
+                        <span>Meet Us</span>
+                      </button>
+                    <button class="bg-white hover:bg-epicCustard transition-all duration-200 text-epicGreen py-3 px-7 rounded-full text-sm font-bold uppercase inline-flex items-center">
+                        <svg class="fill-current w-4 h-4 mr-2" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25ZM10.75 17.2632L17.5 13.366C18.1667 12.9811 18.1667 12.0189 17.5 11.634L10.75 7.73685C10.0833 7.35196 9.25 7.8331 9.25 8.60287V16.3971C9.25 17.1669 10.0833 17.648 10.75 17.2632Z" fill="#50BB7D"/>
+                            </svg>
+                        <span>WATCH VIDEO</span>
+                      </button>
+
+
+                </div>
+            </div>
+        
+    </div>
+        
+
+     </section>
+
+<!-- video carousel testimonials -->
+<section class="container max-w-6xl mx-auto my-20 input-mobile-padding">
+    <h2 class="text-center text-epiclightBlue input-section-title-normal mb-16">Real stories, real impact</h2>
+    <div class="relative overflow-x-hidden ">
+      <!-- slider -->
+      <div class="relative flex items-center">
+          <div id="carousel" class="relative scrollbar-hide flex w-full snap-x snap-mandatory gap-8 overflow-x-auto overscroll-x-contain">
+          <!-- slider 1 -->
+          <div class="carousel-item relative flex aspect-video w-full md:w-1/2 shrink-0 snap-start flex-col justify-end overflow-hidden rounded-xl shadow-lg hover:opacity-80 transition-all duration-500">
+              <a href="#">
+              <img src="images/thumbs/thumb-afterpay.jpg" alt="Tina Yards" class="absolute inset-0 h-full w-full object-cover" />
+              </a>
+          </div>
+          <!-- slider 2 -->
+          <div class="carousel-item relative flex aspect-video w-full md:w-1/2 shrink-0 snap-start flex-col justify-end overflow-hidden rounded-xl shadow-lg hover:opacity-80 transition-all duration-500">
+              <a href="#">
+              <img src="images/thumbs/thumb-ANU.jpg" alt="Tina Yards" class="absolute inset-0 h-full w-full object-cover" />
+              </a>
+          </div>
+          <!-- slider 3 -->
+          <div class="carousel-item relative flex aspect-video w-full md:w-1/2 shrink-0 snap-start flex-col justify-end overflow-hidden rounded-xl shadow-lg hover:opacity-80 transition-all duration-500">
+              <a href="#">
+              <img src="images/thumbs/thumb-BA.jpg" alt="Tina Yards" class="absolute inset-0 h-full w-full object-cover" />
+              </a>
+          </div>                 
+          </div>
+      </div>
+  
+      <!-- arrow buttons -->
+          <div class="flex justify-center gap-x-4 mt-10">
+          <button id="prev" aria-label="Previous" class="bg-epiclightBlue hover:bg-epicBlue transition-all duration-200 inline-flex h-12 w-12 items-center justify-center rounded-full shadow-md">
+              <svg viewBox="0 0 20 20" fill="#FFF" class="h-5 w-5">
+                <path fill-rule="evenodd" d="M11.78 5.22a.75.75 0 0 1 0 1.06L8.06 10l3.72 3.72a.75.75 0 1 1-1.06 1.06l-4.25-4.25a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
+              </svg>
+          </button>       
+
+          <button id="next" aria-label="Next" class="bg-epiclightBlue hover:bg-epicBlue transition-all duration-200 inline-flex h-12 w-12 items-center justify-center rounded-full shadow-md">
+              <svg viewBox="0 0 20 20" fill="#FFF" class="h-5 w-5">
+              <path fill-rule="evenodd" d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+              </svg>
+          </button>
+          </div>
+  </div>  
+  
+  
+  
+  </section>
+
+<!-- form -->
+<section class="bg-epicShell input-full-w-section">
+    <div class="container max-w-6xl mx-auto input-mobile-padding">
+      <!-- grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        
+        <!-- content -->
+        <div>
+          <h3 class="input-section-title-normal mb-10 text-epicBlue">Let's do something EPiC</h3>
+          <p class="input-lead-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fugit esse ipsum nostrum optio reiciendis, voluptate voluptatibus eveniet consectetur harum.</p>
+  
+          <form class="mt-0 md:mt-10 mx-auto">
+            <div class="grid md:grid-cols-2 md:gap-6">
+                <!-- name -->
+                <div class="mb-5">
+                    <label for="name" class="block mb-2 text-sm font-medium text-epicBlue">Full Name</label>
+                    <input type="text" class="border border-gray-300 focus:border-epiclightBlue focus:outline focus:outline-epiclightBlue text-sm rounded-lg block w-full p-2.5" placeholder="Your EPiC Name" required />
+                  </div>
+                <!-- email -->
+                <div class="mb-5">
+                    <label for="email" class="block mb-2 text-sm font-medium text-epicBlue">Your Email</label>
+                    <input type="email" class="border border-gray-300 focus:border-epiclightBlue focus:outline focus:outline-epiclightBlue text-sm rounded-lg block w-full p-2.5" placeholder="innovate@me.now" required />
+                  </div>   
+                <!-- Company Name -->
+                <div class="mb-5">
+                    <label for="name" class="block mb-2 text-sm font-medium text-epicBlue">Company Name</label>
+                    <input type="text" class="border border-gray-300 focus:border-epiclightBlue focus:outline focus:outline-epiclightBlue text-sm rounded-lg block w-full p-2.5" placeholder="Company or type 'NA' if you reaching our privately " required />
+                  </div>
+                <!-- Country -->
+                <div class="mb-5">
+                    <label for="name" class="block mb-2 text-sm font-medium text-epicBlue">Country or City</label>
+                    <input type="text" class="border border-gray-300 focus:border-epiclightBlue focus:outline focus:outline-epiclightBlue text-sm rounded-lg block w-full p-2.5" placeholder="Where are you from?" required />
+                  </div>                                                                                     
+            </div>
+            <!-- Message -->
+                <div class="mb-5 md:mt-6">
+                    <label for="name" class="block mb-2 text-sm font-medium text-epicBlue">Message</label>
+                        <input type="text" class="border border-gray-300 focus:border-epiclightBlue focus:outline focus:outline-epiclightBlue text-sm rounded-lg block w-full p-2.5" placeholder="Tell us..." required />
+                </div>
+  
+                <div class="mx-auto text-center mt-10">
+                    <button class="bg-epicBlue hover:bg-epiclightBlue transition-all duration-200 text-white py-3 px-7 rounded-full text-sm font-bold uppercase items-center tracking-wide">
+                        <span>Send</span>
+                      </button>
+                </div>                    
+         </form>
+        </div>
+    
+        <!-- stacked imgs -->
+        <div class="grid grid-cols-2 gap-6 px-6">
+          <div class="space-y-6">
+            <img src="images/Courses-Epic-Agile---Coach-Training - Copy.jpg" class="rounded-2xl shadow-lg object-cover" alt="Img1">
+            <img src="images/Courses-Epic-Agile---Coach-Training - Copy.jpg" class="rounded-2xl shadow-lg object-cover" alt="Img2">
+          </div>
+          <div class="space-y-6 mt-12">
+            <img src="images/Courses-Epic-Agile---Coach-Training - Copy.jpg" class="rounded-2xl shadow-lg object-cover" alt="Img3">
+            <img src="images/Courses-Epic-Agile---Coach-Training - Copy.jpg" class="rounded-2xl shadow-lg object-cover" alt="Img4">
+          </div>
+        </div>
+    
+      </div>    
+  
+      
+    </div>
+  </section>
+
+<!-- footer placeholder -->
+<div class="w-full mx-auto py-10 bg-epicBlue">
+    <div class="container mx-auto text-center font-bold text-white uppercase">Footer Placerholder</div>
+</div>
+
+
+</body>
+</html>
