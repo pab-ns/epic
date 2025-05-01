@@ -1,19 +1,19 @@
   const courses = [
     {
-      img: "../images/pathway/PRODUCT_Product-Owner.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/PRODUCT_Product-Owner.png",
       name: "Product Owner",
       desc: "Maximise the value of a product or service with customer-focused, outcome-driven product discovery and effective team collaboration.",
       enrolLink: "https://training.epicagile.com.au/w/au/courses/40-epic-product-owner-icpapo"
     },
     {
-      img: "../images/pathway/PRODUCT_Human-Centered-Design.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/PRODUCT_Human-Centered-Design.png",
       name: "Human Centered Design",
       desc: "Gain deep understanding of the principles and experience a number of Human Centred Design (HCD) techniques to apply in their environments.",
 
       enrolLink: "#"
     },
     {
-      img: "../images/pathway/PRODUCT_Product-Manager.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/PRODUCT_Product-Manager.png",
       name: "Product Manager",
       desc: "Position and deliver winning products and services; aligning life-cycle with the organisation’s purpose and customers’ needs",
       enrolLink: "#"
