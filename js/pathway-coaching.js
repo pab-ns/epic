@@ -1,6 +1,6 @@
   const courses = [
     {
-      img: "../images/pathway/COACHING_Coach.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/COACHING_Coach.png",
       name: "Coach",
       desc: "Build high-performing teams through assessing culture and maturity, with effective coaching, mentoring, and teaching.",
       enrolLink: "https://training.epicagile.com.au/w/au/courses/38-epic-coach-icpacc"
@@ -8,19 +8,19 @@
     {
       name: "Enterprise Coach",
       enrolLink: "https://training.epicagile.com.au/w/au/courses/79-enterprise-agile-coaching-icpent",
-      img: "../images/pathway/COACHING_Enterprise-Coach.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/COACHING_Enterprise-Coach.png",
       desc: "Improve agile adoption through looking beyond teams & divisions to identify and overcome impediments to agility.",
     },
     {
       name: "Transformation Coach",
       enrolLink: "https://training.epicagile.com.au/w/au/courses/80-coaching-agile-transformation-icpcat",
-      img: "../images/pathway/COACHING_Transformation-Coach.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/COACHING_Transformation-Coach.png",
       desc: "Lead effective transformation by building on current strengths and incrementally introducing new practices and operating models. ",
     },
     {
       name: "Expert Coach",
       enrolLink: "#",
-      img: "../images/pathway/COACHING_Expert-Coach.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/COACHING_Expert-Coach.png",
       desc: "This course equips you with the ability to facilitate impactful sessions, coach with confidence, mentor with purpose, and teach with clarity.",
     },
   ];
