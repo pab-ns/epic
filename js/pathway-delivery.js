@@ -2,19 +2,19 @@ const courses = [
   {
     name: "Team Facilitator",
     enrolLink: "#",
-    img: "../images/pathway/DELIVERY_Team-Facilitator.png",
+    img: "https://pab-ns.github.io/epic/images/pathway/DELIVERY_Team-Facilitator.png",
     desc: "Design and lead effective events & workshops that achieve outcomes and enable development & learning.",
   },
   {
     name: "Delivery Manager",
     enrolLink: "#",
-    img: "../images/pathway/DELIVERY_delivery-Manager.png",
+    img: "https://pab-ns.github.io/epic/images/pathway/DELIVERY_delivery-Manager.png",
     desc: "Enable teams to deliver on value, to quality and within constraints; with adaptive planning, improved flow and greater transparency.",
   },
   {
     name: "Lean Portfolio Management",
     enrolLink: "#",
-    img: "../images/pathway/DELIVERY_Lean-Portfolio-Manager.png",
+    img: "https://pab-ns.github.io/epic/images/pathway/DELIVERY_Lean-Portfolio-Manager.png",
     desc: "Plan dynamically and be flexible enough to adjust initiatives and budgets as the market changes. Get the tools to work effectively in remote environments with distributed teams.",
   },
 ];
