@@ -2,19 +2,19 @@
     {
       name: "Agile for Leaders",
       enrolLink: "https://training.epicagile.com.au/w/au/courses/84-agile-for-leaders",
-      img: "../images/pathway/LEADERSHIP_Agile for Leaders.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/LEADERSHIP_Agile for Leaders.png",
       desc: "Foster an environment where cross-functional teams have the alignment and autonomy to thrive and become high-performing.",
     },
     {
       name: "Capability Leadership",
       enrolLink: "https://training.epicagile.com.au/w/au/courses/89-leading-chapters",
-      img: "../images/pathway/LEADERSHIP_Capability-Leadership.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/LEADERSHIP_Capability-Leadership.png",
       desc: "As a Chapter/Capability Lead gain a greater understanding of the role and how to establish and maintain a healthy Chapter.",
     },
     {
       name: "Leadership Agility",
       enrolLink: "#",
-      img: "../images/pathway/LEADERSHIP_Leadership-Agility.png",
+      img: "https://pab-ns.github.io/epic/images/pathway/LEADERSHIP_Leadership-Agility.png",
       desc: "Transform leadership style to play a pivotal role in navigating change, driving innovation, and fostering a culture of continual learning.",
     },
   ];
